@@ -1,0 +1,134 @@
+.App {
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 100px;
+  font-family: Arial, sans-serif;
+  background-color: #afa7d5;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  font-size:40px;
+  font-family:cursive;
+}
+h2 {
+  margin-bottom:10px;
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-family:cursive;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+p{
+  font-family:sans-serif;
+}
+
+div {
+  margin-bottom: 20px;
+  font-size:30px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+label {
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-family:serif;
+
+}
+
+select,
+input {
+  padding: 8px;
+  border: 1px solid #8d5050;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #500f0f;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.seat-container {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.seat {
+  width: 10px;
+  height: 30px;
+  background-color: #ccc;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.seat.selected {
+  background-color: #6c5ce7;
+  color: white;
+}
+
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.seat-container {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.seat {
+  width: 100px;
+  height: 70px;
+  background-color: #ccc;
+  margin: 5px;
+  margin-left:3px;
+  margin-right:6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.seat.selected {
+  background-color: #6c5ce7;
+  color: white;
+}

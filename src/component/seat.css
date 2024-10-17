@@ -1,0 +1,7 @@
+.seat {
+    transition: background-color 0.3s;
+  }
+  
+  .seat:hover {
+    background-color: #b2bec3;
+  }
